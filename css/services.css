@@ -1,0 +1,112 @@
+#four i{
+    color:#fff;
+	border-radius:50%;
+	padding:40px;
+}
+
+nav ul li {padding-right: 30px;}
+nav ul li a{color:black;font-size: 12px;}
+nav #collapsibleNavbar ul li a:hover{color: #ED502E}
+nav .active >.nav-link{color: #ED502E !important}
+
+.text-center {
+    text-align: center;
+}
+
+.progress-wrap{
+    position: relative;
+  }
+  
+  .progress .color1,
+  .progress .color1 .bar-width{
+    background: #2d7da4;
+  }
+  
+  .progress .color2,
+  .progress .color2 .bar-width{
+    background: #6aa42f;
+  }
+  
+  .progress .color3,
+  .progress .color3 .bar-width{
+    background: #ffcc33;
+  }
+  
+  .progress .color4,
+  .progress .color4 .bar-width{
+    background: #db3615;
+  }
+  
+  .progress, 
+  .progress-bar {
+    height: 50px;
+    line-height: 20px;
+    background: #e6e6e6;
+  }
+  
+  .progress{
+    position: relative;
+  }
+  
+  .progress .bar-width{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    top: -30px;
+    border-radius: 2px;
+    margin-left: -30px;
+  }
+  
+ 
+  
+  
+
+#four-img .color1{
+    height: 50px;
+    line-height: 20px;
+    color: aqua;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    text-align: right;
+}
+	
+
+
+#na{border-color: #ddd}
+#na:hover{background-color: #ddd}
+
+#third ul{list-style-type: none;}
+#third ul li{    display: inline-block;
+    color: #d0d0d0;
+    padding: 5px 10px;
+    background: #000;
+    border-radius: 50%;
+}
+#third a{color: white;text-decoration: none;font-size: 12px}
+
+#third hr{background-color: white}
+#final{background-color: #090909;padding: 20px 0;color: white;text-align: center}
+#final ul{list-style-type: none}
+#final ul li{display: inline-block;}
+#final a{color: white;text-decoration: none}
+#final a:hover{color: #ED502E}
+.pull-right{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.pull-right i{
+    opacity: 1;
+    color:#fff;
+	border-radius:100%;
+	padding:5px 10px;
+}
+.pull-right i:hover{
+	background:#ED502E;
+
+}

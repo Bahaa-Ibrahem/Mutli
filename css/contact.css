@@ -1,0 +1,74 @@
+#four i{
+    color:#fff;
+	border-radius:50%;
+	padding:40px;
+}
+
+nav ul li {padding-right: 30px;}
+nav ul li a{color:black;font-size: 12px;}
+nav #collapsibleNavbar ul li a:hover{color: #ED502E}
+nav .active >.nav-link{color: #ED502E !important}
+
+#sendmessage {
+    color: green;
+    border: 1px solid green;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+#errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+	
+
+
+#na{border-color: #ddd}
+#na:hover{background-color: #ddd}
+
+#third ul{list-style-type: none;}
+#third ul li{    display: inline-block;
+    color: #d0d0d0;
+    padding: 5px 10px;
+    background: #000;
+    border-radius: 50%;
+}
+#third a{color: white;text-decoration: none;font-size: 12px}
+
+#third hr{background-color: white}
+#final{background-color: #090909;padding: 20px 0;color: white;text-align: center}
+#final ul{list-style-type: none}
+#final ul li{display: inline-block;}
+#final a{color: white;text-decoration: none}
+#final a:hover{color: #ED502E}
+.pull-right{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.pull-right i{
+    opacity: 1;
+    color:#fff;
+	border-radius:100%;
+	padding:5px 10px;
+}
+.pull-right i:hover{
+	background:#ED502E;
+
+}

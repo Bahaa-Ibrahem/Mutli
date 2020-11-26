@@ -1,0 +1,81 @@
+#four i{
+    color:#fff;
+	border-radius:50%;
+	padding:20px;
+	background:#ED502E;
+}
+
+#slideshow{width: 100%}
+#slideshow img{width: 100%}
+/* pager */
+.cycle-pager {
+    text-align: center;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    bottom: 10px;
+    overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; font-size: 50px; width: 16px; height: 16px; 
+    display: inline-block; color: #ccc; cursor: pointer; 
+}
+.cycle-pager span.cycle-pager-active { color: #ED502E;}
+.cycle-pager > * { cursor: pointer;}
+
+nav #collapsibleNavbar ul li {padding-right: 15px;}
+nav #collapsibleNavbar ul li a{color:black;font-size: 12px;}
+nav #collapsibleNavbar ul li a:hover{color: #ED502E}
+nav .active >.nav-link{color: #ED502E !important}
+
+
+#left-font{margin: 100px 50px}
+#left-font p{font-size: 12px}
+#left-font i{color: white;background-color: #ED502E;border-radius:50%;	padding:20px;}
+#left-font i:hover{color: #ED502E;background-color: white}
+#bt button{
+	color: #333;
+    background-color: #fff;
+    border-color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 30px;
+	margin-left: -10px;
+}
+#four-img img{border-radius: 20px;display: block;margin:20px auto}
+#third ul li{
+	display: inline-block;
+	color: #d0d0d0;
+    padding: 5px 10px;
+    background: #000;
+    border-radius: 50%;
+}
+#na{border-color: #ddd}
+#na:hover{background-color: #ddd}
+#third a{color: white;text-decoration: none}
+#third ul{text-align: left;padding-left: 0}
+#third hr{background-color: white}
+
+
+#final{background-color: #090909;color: white;text-align: center;padding: 10px}
+#final ul{list-style-type: none;}
+#final ul li{display: inline-block;padding-right: 15px}
+#final a{color: white;text-decoration: none;font-size: 12px}
+#final a:hover{color: #ED502E}
+
+
+.pull-right{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.pull-right i{
+    opacity: 1;
+    color:#fff;
+	border-radius:100%;
+	padding:5px 10px;
+}
+.pull-right i:hover{
+	background:#ED502E;
+
+}
